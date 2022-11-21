@@ -7,7 +7,7 @@ import countryList from './templates/country-list.hbs';
 
 import { fetchCountries } from './fetchCountries.js';
 
-const debounce = require('lodash.debounce');
+// const debounce = require('lodash.debounce');
 const DEBOUNCE_DELAY = 300;
 
 const inputEl = document.querySelector('#search-box');
